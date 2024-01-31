@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+section {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-us {
+	display: flex;
+	width: 1044px;
+	height: 760px;
+	background-color: #FFF4F4;
+	border-radius: 50px;
+
+	box-shadow: 3px 3px 3px 3px #9B9393;
+}
+
+.contact-us p{
+	color: #C24B4B;
+	font-size: 64px;
+}
+
+.contact-us{
+	display: flex;
+	justify-content : center;
+	align-items : center;
+}

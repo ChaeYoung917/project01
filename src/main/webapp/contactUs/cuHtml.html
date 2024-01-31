@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="cuCss.css">
+
+</head>
+
+<body>
+	<section>
+		<div class="left">
+
+			<div class="contact-us">
+				<p>Contact Us</p>
+
+
+
+				<div class="name">
+					성함<br />
+					<input type="text" placeholder="성함을 입력해 주세요">
+				</div>
+
+				<div class="e-mail">
+					이메일 주소<br />
+					<input type="email" placeholder="메일주소를 입력해 주세요">
+				</div>
+
+				<div>
+					<label for="ask-category">문의 유형</label><br />
+					<form action="#">
+						<!--어디다가 전송?-->
+						<select class="category" name="category" id="category">
+							<option value="null">선택하세요</option>
+							<option value="account">계정 문의</option>
+							<option value="post">게시물 관리</option>
+							<option value="book-info">도서정보 관리</option>
+							<option value="suggest">건의사항</option>
+							<option value="ad">광고 문의</option>
+							<option value="etc">기타</option>
+						</select>
+					</form>
+				</div>
+
+				<div class="detail">
+					문의 내용<br />
+					<input type="text" placeholder="내용을 입력해주세요">
+				</div>
+			</div>
+		</div>
+
+		<div class="right">
+
+		</div>
+	</section>
+</body>
+
+</html>

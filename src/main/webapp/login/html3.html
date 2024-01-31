@@ -7,15 +7,41 @@
 		content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
 	<title>로그인 페이지</title>
 	<link rel="stylesheet" type="text/css" href="css3.css">
+	<script src="slide.js"></script>
 </head>
 
 <body>
+<section>
+	<div class="left">
+		<!--<div class="slider">
+			<div class="inner">
+				<ul class="swiper-wrapper slide_list">
+					<li class="swiper-slide"><span class="img"><img src="./../image/loginimage01.png"
+								alt="01"></span></li>
+					<li class="swiper-slide"><span class="img"><img src="./../image/loginimage02.png"
+								alt="02"></span></li>
+					<li class="swiper-slide"><span class="img"><img src="./../image/loginimage03.png"
+								alt="03"></span></li>
+				</ul>
+			</div>
+			<span class="btn btn_prev"><img src="./images/arrow.png" alt="이전"></span>
+			<span class="btn btn_next"><img src="./images/arrow.png" alt="다음"></span>
+		</div>-->
 
-	<div class="left"></div>
+
+	</div>
 
 	<div class="right">
+		
+		<div class="login">
+			
+		<div class="logo">
+		<img src="/src/main/webapp/image/loginimage01.png">
+			<p class="logoname">livre</p> 
+		</div>
 
-		<div class="loginbox">
+		<div class="login">
+
 			<form action="#">
 				<!--이메일 입력-->
 				<input type="email" id="loginid" placeholder="아이디 입력"><br />
@@ -27,17 +53,22 @@
 				<label for="remember-check">
 					<input type="checkbox" id="remember-check">자동 로그인
 				</label><br />
-				
-				<!--비밀번호를 잊으셨나요?-->
-				<type="text">비밀번호를 잊으셨나요?<br/>
 
-				<!--로그인 버튼-->
-				<button type="submit">로그인</button>
+				<!--비밀번호를 잊으셨나요?-->
+				<type="text">비밀번호를 잊으셨나요?<br />
+
+					<!--로그인 버튼-->
+					<button type="submit">로그인</button>
 			</form>
+		</div>
+
+		<div class="join">
 
 		</div>
-	</div>
 
+
+	</div>
+</section>
 </body>
 
 </html>
